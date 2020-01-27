@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Contact.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main class="container">
+
+    <table class="table">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Action</th>
+        </thead>
+
+        <tbody id="appendData">
+
+            <!-- <tr>
+                <td>1</td>
+                <td>Patrick</td>
+                <td>9874563211</td>
+                <td>
+                    <button class="btn btn-primary" id="editButton">Edit</button>
+                    <button class="btn btn-danger" id="deleteButton">Delete</button>
+                </td>
+
+            </tr> -->
+
+        </tbody>
+    </table>
+
+
+
+    <div class="col-md-12">
+        <div class="col-md-4">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="nameInput" class="form-control">
+
+        </div>
+        
+        <div class="col-md-4">
+            
+            <label for="number">Number</label>
+            <input type="text" name="number" id="numberInput" class="form-control">
+
+        </div>
+        
+        <div class="col-md-4" id="replaceBtn">
+
+            <button class="btn btn-success formButton" id="addButton">Add</button>
+
+        </div>
+
+    </div>
+    
+</main>
+
+
+    <script src="Contacts.js"></script>
+</body>
+</html>
